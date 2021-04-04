@@ -1,0 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+//import App from './App';
+import ToDoList from './ToDoList';
+import './index.css';
+
+ReactDOM.render( < ToDoList / > , document.getElementById('root'));

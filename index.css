@@ -1,0 +1,75 @@
+                                                                                                * {
+                                                                                                    box-sizing: border-box;
+                                                                                                    padding: 0px;
+                                                                                                    margin: 0px;
+                                                                                                }
+                                                                                                
+                                                                                                .main_div {
+                                                                                                    width: 100%;
+                                                                                                    height: 100vh;
+                                                                                                    background-color: #7bed9f;
+                                                                                                    display: flex;
+                                                                                                    flex-direction: row;
+                                                                                                    justify-content: center;
+                                                                                                    align-items: center;
+                                                                                                    text-align: center;
+                                                                                                }
+                                                                                                
+                                                                                                .center_div {
+                                                                                                    width: 25%;
+                                                                                                    height: 70vh;
+                                                                                                    background-color: #f4f4f4;
+                                                                                                    box-shadow: 5px 5px 25px -5px rgba;
+                                                                                                    border-radius: 18px;
+                                                                                                }
+                                                                                                
+                                                                                                h1 {
+                                                                                                    background-color: rgb(218, 52, 218);
+                                                                                                }
+                                                                                                
+                                                                                                input {
+                                                                                                    width: 65%;
+                                                                                                    border: none;
+                                                                                                    outline: none;
+                                                                                                    padding: 8px 10px;
+                                                                                                    background: #f4f4f4;
+                                                                                                    border-bottom: #7bed9f;
+                                                                                                    text-decoration: underline;
+                                                                                                }
+                                                                                                
+                                                                                                .newBtn {
+                                                                                                    border-radius: 20px;
+                                                                                                    background-color: #7bed9f!important;
+                                                                                                    border: none;
+                                                                                                    outline: none;
+                                                                                                    border-radius: 60%!important;
+                                                                                                }
+                                                                                                
+                                                                                                .todoList_style {
+                                                                                                    display: flex;
+                                                                                                    flex-direction: row;
+                                                                                                    justify-content: center;
+                                                                                                    align-items: center;
+                                                                                                }
+                                                                                                
+                                                                                                .deleteIcon {
+                                                                                                    width: 25px;
+                                                                                                    height: 25px;
+                                                                                                    display: flex;
+                                                                                                    justify-content: center;
+                                                                                                    align-items: center;
+                                                                                                    border: 2px solid black;
+                                                                                                    background-color: #8566aa;
+                                                                                                    border-radius: 20px;
+                                                                                                }
+                                                                                                
+                                                                                                .delete:hover {
+                                                                                                    background-color: #8566aa;
+                                                                                                    color: crimson;
+                                                                                                }
+                                                                                                
+                                                                                                @media(max-width:768px) {
+                                                                                                    center_div {
+                                                                                                        max-width: 55%;
+                                                                                                    }
+                                                                                                }
